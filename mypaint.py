@@ -1,3 +1,4 @@
+# Working with Pygame
 import pygame
 from pygame.locals import *
 pygame.init()
@@ -73,3 +74,5 @@ while run:
                 colour = Colours.white
             elif event.key == K_x:
                 reset_screen(window)
+
+
